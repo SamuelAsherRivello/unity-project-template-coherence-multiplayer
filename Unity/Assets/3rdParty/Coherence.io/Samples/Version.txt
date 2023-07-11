@@ -1,0 +1,5 @@
+Source Url: 
+* Package Manager Samples For: io.coherence.sdk
+
+Changelog: 
+* Moved to /Assets/3rdParty/
