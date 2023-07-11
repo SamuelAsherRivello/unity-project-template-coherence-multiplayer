@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-1770872553281775340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 579f4a509fd2f994fa391c0c78ea3f11, type: 3}
+  m_Name: Cube
+  m_EditorClassIdentifier: 
+  id: 0523ec6f06fe0994c8dae94b92ef846e
+  editorTarget: {fileID: 1614796558980454783, guid: 0523ec6f06fe0994c8dae94b92ef846e, type: 3}
+  includeInSchema: 1
+  objectProvider:
+    rid: 7160131029604761602
+  objectInstantiator:
+    rid: 7160131029604761603
+  references:
+    version: 2
+    RefIds:
+    - rid: 7160131029604761602
+      type: {class: ResourcesProvider, ns: Coherence.Toolkit, asm: Coherence.Toolkit}
+      data:
+        resourcesPath: RMC/[MyProject]/Cube
+    - rid: 7160131029604761603
+      type: {class: DefaultInstantiator, ns: Coherence.Toolkit, asm: Coherence.Toolkit}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe206545a28be2142b8fa937387721e8, type: 3}
+  m_Name: CoherenceSyncConfigRegistry
+  m_EditorClassIdentifier: 
+  configs:
+  - {fileID: -1770872553281775340}
+  loadFromAssetDatabase: 0

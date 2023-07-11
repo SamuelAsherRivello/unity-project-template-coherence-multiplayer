@@ -5,4 +5,5 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes: []
-  m_configObjects: {}
+  m_configObjects:
+    io.coherence.simulator.build.options: {fileID: 11400000, guid: d1ae9f12e03208445bf8ccd74beca948, type: 2}
