@@ -1,0 +1,5 @@
+Source Url: 
+* https://github.com/SamuelAsherRivello/creating-diablo-iv-in-unity
+
+Changelog: 
+* Moved to /Assets/3rdParty/
