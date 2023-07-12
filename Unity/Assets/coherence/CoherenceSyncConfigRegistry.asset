@@ -42,4 +42,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   configs:
   - {fileID: -1770872553281775340}
+  - {fileID: 569351266091761847}
   loadFromAssetDatabase: 0
+--- !u!114 &569351266091761847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 579f4a509fd2f994fa391c0c78ea3f11, type: 3}
+  m_Name: Player Variant
+  m_EditorClassIdentifier: 
+  id: 28183fceaf1b171489cdc88676bb8378
+  editorTarget: {fileID: 6368792567656325111, guid: 28183fceaf1b171489cdc88676bb8378, type: 3}
+  includeInSchema: 1
+  objectProvider:
+    rid: 7160131078553337858
+  objectInstantiator:
+    rid: 7160131078553337859
+  references:
+    version: 2
+    RefIds:
+    - rid: 7160131078553337858
+      type: {class: DirectReferenceProvider, ns: Coherence.Toolkit, asm: Coherence.Toolkit}
+      data:
+        prefab: {fileID: 6368792567656325111, guid: 28183fceaf1b171489cdc88676bb8378, type: 3}
+    - rid: 7160131078553337859
+      type: {class: DefaultInstantiator, ns: Coherence.Toolkit, asm: Coherence.Toolkit}

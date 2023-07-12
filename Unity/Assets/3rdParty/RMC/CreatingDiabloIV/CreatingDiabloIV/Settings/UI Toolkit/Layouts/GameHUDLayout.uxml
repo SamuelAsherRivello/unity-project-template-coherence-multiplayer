@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Settings/UI%20Toolkit/Styles/GameHUDStyles.uss?fileID=7433441132597879392&amp;guid=a4e6a63a93576a24892da7b9177a6920&amp;type=3#GameHUDStyles" />
+    <ui:VisualElement name="Screen" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); margin-left: 32px; margin-right: 32px; margin-top: 32px; margin-bottom: 32px;">
+        <ui:VisualElement name="UpperRight" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+            <ui:Label tabindex="-1" text="Attacks 001" display-tooltip-when-elided="true" name="AttackCountLabel" class="attack-count-label" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

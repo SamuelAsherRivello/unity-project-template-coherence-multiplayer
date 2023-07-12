@@ -1,0 +1,5 @@
+Source Url: 
+* https://assetstore.unity.com/packages/3d/characters/humanoids/fantasy/rpg-hero-pbr-hp-polyart-121480
+
+Changelog: 
+* Moved to /Assets/3rdParty/

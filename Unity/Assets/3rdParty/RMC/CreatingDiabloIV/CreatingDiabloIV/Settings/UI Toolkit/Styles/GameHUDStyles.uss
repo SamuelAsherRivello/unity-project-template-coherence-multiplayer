@@ -1,0 +1,6 @@
+.attack-count-label {
+    font-size: 70px;
+    -unity-font-definition: url('project://database/Assets/Art/Fonts/ArialBold_SDF.asset?fileID=11400000&guid=9dad3462254aee741b44992a62fa8388&type=2#ArialBold_SDF');
+    color: rgb(255, 255, 255);
+    -unity-text-align: upper-right;
+}

@@ -1,0 +1,17 @@
+{
+    "name": "RMC.CreatingDiabloIV.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "Unity.InputSystem",
+        "RMC.Core.Runtime"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
