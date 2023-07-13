@@ -11,8 +11,8 @@
       "url": "https://registry.npmjs.org"
     },
     "com.rmc.rmc-newtonsoft.json-for-unity": {
-      "version": "10.0.302",
-      "depth": 1,
+      "version": "10.0.303",
+      "depth": 0,
       "source": "registry",
       "dependencies": {},
       "url": "https://registry.npmjs.org"
@@ -205,6 +205,13 @@
         "com.unity.modules.ui": "1.0.0",
         "com.unity.modules.imgui": "1.0.0"
       }
+    },
+    "com.veriorpies.parrelsync": {
+      "version": "https://github.com/VeriorPies/ParrelSync.git?path=/ParrelSync",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "141b4e1e31966242a6fb7c495b52ac3d1221bc75"
     },
     "io.coherence.sdk": {
       "version": "1.0.0",

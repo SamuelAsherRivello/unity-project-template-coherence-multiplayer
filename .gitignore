@@ -75,11 +75,12 @@ crashlytics-build.properties
 *.vsconfig
 [Uu]nity/.idea/.idea.Unity/.idea/projectSettingsUpdater.xml
 
-# Coherence - Multiplayer
-[Uu]nity/[Aa]ssets/[Cc]oherence/[Bb]aked
 
 # ParrelSync - Multiplayer
 [Uu]nity_clone_0/
 [Uu]nity_clone_1/
 [Uu]nity_clone_2/
 [Uu]nity_clone_3/
+
+# Coherence - Multiplayer
+# Ignore nothing for now

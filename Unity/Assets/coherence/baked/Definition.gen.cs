@@ -16,7 +16,7 @@ namespace Coherence.Generated
 
 	public class Definition : IDefinition
 	{
-		public const string schemaId = "f55506397ea165742341d5d4d1d292cf459b1cb8";
+		public const string schemaId = "c2156835aecf7cac7e6f187af6e99f72bb1790fe";
 		public const uint InternalWorldPosition = 0;
 		public const uint InternalWorldOrientation = 1;
 		public const uint InternalLocalUser = 2;
@@ -121,6 +121,7 @@ namespace Coherence.Generated
 		public const uint InternalGenericFieldColor0 = 101;
 		public const uint InternalGenericFieldColor1 = 102;
 		public const uint InternalCube_0523ec6f06fe0994c8dae94b92ef846e_UnityEngine__char_46_Transform_738163648128100788 = 103;
+		public const uint InternalPlayer__char_32_Variant_28183fceaf1b171489cdc88676bb8378_UnityEngine__char_46_Transform_5365570108380709824 = 104;
 		public const uint InternalAuthorityRequest = 0;
 		public const uint InternalAuthorityTransfer = 1;
 		public const uint InternalQuerySynced = 2;
@@ -233,6 +234,7 @@ namespace Coherence.Generated
 			{ 101, "GenericFieldColor0" },
 			{ 102, "GenericFieldColor1" },
 			{ 103, "Cube_0523ec6f06fe0994c8dae94b92ef846e_UnityEngine__char_46_Transform_738163648128100788" },
+			{ 104, "Player__char_32_Variant_28183fceaf1b171489cdc88676bb8378_UnityEngine__char_46_Transform_5365570108380709824" },
 		};
 
 		public static string ComponentNameForTypeId(uint typeId)
@@ -462,6 +464,8 @@ namespace Coherence.Generated
 					return GenericFieldColor1.Deserialize(inProtocolStream);
 				case InternalCube_0523ec6f06fe0994c8dae94b92ef846e_UnityEngine__char_46_Transform_738163648128100788:
 					return Cube_0523ec6f06fe0994c8dae94b92ef846e_UnityEngine__char_46_Transform_738163648128100788.Deserialize(inProtocolStream);
+				case InternalPlayer__char_32_Variant_28183fceaf1b171489cdc88676bb8378_UnityEngine__char_46_Transform_5365570108380709824:
+					return Player__char_32_Variant_28183fceaf1b171489cdc88676bb8378_UnityEngine__char_46_Transform_5365570108380709824.Deserialize(inProtocolStream);
 				default:
 					return (null, 0);
 			}
@@ -680,6 +684,8 @@ namespace Coherence.Generated
 					return GenericFieldColor1.Serialize((GenericFieldColor1)data, mask, protocolStream);
 				case InternalCube_0523ec6f06fe0994c8dae94b92ef846e_UnityEngine__char_46_Transform_738163648128100788:
 					return Cube_0523ec6f06fe0994c8dae94b92ef846e_UnityEngine__char_46_Transform_738163648128100788.Serialize((Cube_0523ec6f06fe0994c8dae94b92ef846e_UnityEngine__char_46_Transform_738163648128100788)data, mask, protocolStream);
+				case InternalPlayer__char_32_Variant_28183fceaf1b171489cdc88676bb8378_UnityEngine__char_46_Transform_5365570108380709824:
+					return Player__char_32_Variant_28183fceaf1b171489cdc88676bb8378_UnityEngine__char_46_Transform_5365570108380709824.Serialize((Player__char_32_Variant_28183fceaf1b171489cdc88676bb8378_UnityEngine__char_46_Transform_5365570108380709824)data, mask, protocolStream);
 				default:
 					logger.Error("Missing serialization implementation for a component.", ("component", data.GetComponentType()));
 					return 0;
