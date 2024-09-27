@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Samples/coherence/1.0.0-preview/Connect%20Dialog_%20Matchmaking/UI/StyleSheets/unity_overrides.uss?fileID=7433441132597879392&amp;guid=0b9481e3b84826f4bb49a7f022ddb40d&amp;type=3#unity_overrides" />
+    <Style src="project://database/Assets/Samples/coherence/1.0.0-preview/Connect%20Dialog_%20Matchmaking/UI/StyleSheets/common.uss?fileID=7433441132597879392&amp;guid=91664e4b4cde4d442a5e9e50466cf7be&amp;type=3#common" />
+    <Style src="project://database/Assets/Samples/coherence/1.0.0-preview/Connect%20Dialog_%20Matchmaking/UI/StyleSheets/chat_ui.uss?fileID=7433441132597879392&amp;guid=4a18c0c59739ade48886d9faef177079&amp;type=3#chat_ui" />
+    <Coherence.MatchmakingDialogSample.UI.ChatUI />
+</ui:UXML>

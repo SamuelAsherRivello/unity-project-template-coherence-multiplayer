@@ -27,6 +27,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1614796558980454783}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -34,7 +35,6 @@ Transform:
   m_Children:
   - {fileID: 2976116968366746128}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &4281556492668926083
 MeshFilter:
@@ -134,6 +134,9 @@ MonoBehaviour:
   OnAuthorityRequestRejected:
     m_PersistentCalls:
       m_Calls: []
+  OnAuthTransferComplete:
+    m_PersistentCalls:
+      m_Calls: []
   OnConnectedEntityChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -142,6 +145,8 @@ MonoBehaviour:
       m_Calls: []
   coherenceSyncConfig: {fileID: -1770872553281775340, guid: e64e127a186517d488ecd9d77617328c, type: 2}
   archetype:
+    lodLevels:
+    - distance: 0
     boundComponents:
     - component: {fileID: 738163648128100788}
       lodStepsActive: 1
@@ -159,9 +164,6 @@ MonoBehaviour:
       lodStepsActive: 1
     - component: {fileID: 7660269745613994989}
       lodStepsActive: 1
-    lodLevels:
-    - distance: 0
-    archetypeName: Cube_0523ec6f06fe0994c8dae94b92ef846e
     GeneratesArchetypeDefinition: 0
   interpolationLocation: 1
   RigidbodyUpdateMode: 0
@@ -177,7 +179,7 @@ MonoBehaviour:
   OnRigidbody3DRotationUpdate:
     m_PersistentCalls:
       m_Calls: []
-  bakedScriptType: Coherence.Generated.CoherenceSyncCube_0523ec6f06fe0994c8dae94b92ef846e,
+  bakedScriptType: Coherence.Generated.CoherenceSync_0523ec6f06fe0994c8dae94b92ef846e,
     Assembly-CSharp
   approveAuthorityTransferRequests: 1
   simulationType: 0
@@ -202,6 +204,7 @@ MonoBehaviour:
       m_Calls: []
   scenePrefabInstanceUUID: 
   coherenceUUID: 
+  assetVersion: 
   usingReflection: 0
   coherenceTag: 
   componentActions: []
@@ -218,9 +221,10 @@ MonoBehaviour:
         descriptor:
           rid: 7160131029604761601
         routing: 0
+        syncMode: 0
         isPredicted: 0
-        defaultInterpolationPath: 
-        guid: 563918cf-f1b0-4ed1-b998-90487b76a627
+        predictionMode: 0
+        guid: 563918cff1b04ed1b99890487b76a627
         archetypeData:
           type: 7
           minRange: 0
@@ -248,6 +252,7 @@ MonoBehaviour:
         ownerType:
           assemblyQualifiedName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
             Culture=neutral, PublicKeyToken=null
+        defaultSyncMode: 0
         CustomData:
           rid: -2
         bindingType:
@@ -261,9 +266,10 @@ MonoBehaviour:
         descriptor:
           rid: 7160131029604761605
         routing: 0
+        syncMode: 0
         isPredicted: 0
-        defaultInterpolationPath: 
-        guid: dac0b334-198b-4fde-a850-81a60251729d
+        predictionMode: 0
+        guid: dac0b334198b4fdea85081a60251729d
         archetypeData:
           type: 8
           minRange: 0
@@ -291,6 +297,7 @@ MonoBehaviour:
         ownerType:
           assemblyQualifiedName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
             Culture=neutral, PublicKeyToken=null
+        defaultSyncMode: 0
         CustomData:
           rid: -2
         bindingType:
@@ -324,13 +331,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7594445772735253535}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.015, y: 0, z: -0.23}
   m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 738163648128100788}
-  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1983846621285663847
 MeshFilter:

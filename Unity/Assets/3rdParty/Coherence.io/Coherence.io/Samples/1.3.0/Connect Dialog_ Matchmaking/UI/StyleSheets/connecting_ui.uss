@@ -1,0 +1,18 @@
+.connecting-ui__content {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    -unity-font-style: normal;
+    margin-bottom: 16px;
+}
+
+.connecting-ui__loading-content {
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.connecting-ui__label {
+    white-space: normal;
+}

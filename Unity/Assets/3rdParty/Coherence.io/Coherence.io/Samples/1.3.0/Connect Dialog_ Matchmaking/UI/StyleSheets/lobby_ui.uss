@@ -1,0 +1,52 @@
+.lobby-session__players-container{
+    border-width: 1px;
+    border-color: rgba(196, 196, 196, 1);
+    border-radius: 5px;
+}
+
+.lobby-session__players-header{
+    flex-direction: row;
+    justify-content: space-between;
+    -unity-font-style: bold;
+    font-size: 14px;
+    -unity-text-align: middle-left;
+    margin-left: 10px;
+    margin-right: 3px;
+}
+
+.lobby-session__player-cell{
+    flex-direction: row;
+    -unity-text-align: middle-left;
+    margin-left: 12px;
+    margin-right: 3px;
+}
+
+.lobby-session__player-owner{
+    -unity-font-style: bold;
+}
+
+.lobby-session__player-background-even{
+    background-color: rgb(248, 252, 255);
+}
+
+.lobby-session__player-background-odd{
+    background-color: rgb(237,243, 246);
+}
+
+.lobby-session__players-scroll{
+    height: 265px;
+}
+
+.lobby-session__buttons-container{
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    height: 25px;
+}
+
+.lobby-session__user-star {
+    margin-top: 5px;
+    width: 16px;
+    height: 16px;
+    background-image: url('../icons/user_star.png?fileID=21300000&guid=e8010d159e27e9f4db8b424ecc12a203&type=3#user_star');
+}

@@ -12,10 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85b91f942a5214496b0e11eaedb54c36, type: 3}
   m_Name: RuntimeSettings
   m_EditorClassIdentifier: 
+  schemaID: 23971a30af29544397b61076eff77af645359c60
   versionInfo: {fileID: 11400000, guid: 2191b6f902c97477baa32a7919010503, type: 2}
   runtimeKey: 14ee75c787f340e09471be9d41f6cab3
-  schemaID: c2156835aecf7cac7e6f187af6e99f72bb1790fe
-  uploadedSchema: 1
   simulatorSlug: 
   localHost: 127.0.0.1
   localWorldUDPPort: 32001
@@ -32,6 +31,12 @@ MonoBehaviour:
   organizationID: cilabte4h3r2ou7cjub0
   projectID: cilabte4h3r2ou7cjubg
   projectName: Default Project
-  defaultTransportMode: 0
+  transportType: 0
+  transportConfiguration: 0
   replicationServerToken: 
   playApiEndpoint: https://api.prod.coherence.io/v1/play
+  schemas:
+  - {fileID: -1758743643018166929, guid: 266a112c2c9e941a58a87a48e7a4f8cb, type: 3}
+  - {fileID: -1758743643018166929, guid: a70d7f98590962746b27bf69e6457e99, type: 3}
+  defaultTransportMode: 0
+  defaultTransportModeMigrated: 0

@@ -482,6 +482,9 @@ MonoBehaviour:
   OnAuthorityRequestRejected:
     m_PersistentCalls:
       m_Calls: []
+  OnAuthTransferComplete:
+    m_PersistentCalls:
+      m_Calls: []
   OnConnectedEntityChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -490,6 +493,8 @@ MonoBehaviour:
       m_Calls: []
   coherenceSyncConfig: {fileID: 569351266091761847, guid: e64e127a186517d488ecd9d77617328c, type: 2}
   archetype:
+    lodLevels:
+    - distance: 0
     boundComponents:
     - component: {fileID: 5365570108380709824}
       lodStepsActive: 1
@@ -645,9 +650,6 @@ MonoBehaviour:
       lodStepsActive: 1
     - component: {fileID: 5366489244575551751}
       lodStepsActive: 1
-    lodLevels:
-    - distance: 0
-    archetypeName: Player__char_32_Variant_28183fceaf1b171489cdc88676bb8378
     GeneratesArchetypeDefinition: 0
   interpolationLocation: 1
   RigidbodyUpdateMode: 0
@@ -663,7 +665,7 @@ MonoBehaviour:
   OnRigidbody3DRotationUpdate:
     m_PersistentCalls:
       m_Calls: []
-  bakedScriptType: Coherence.Generated.CoherenceSyncPlayer__char_32_Variant_28183fceaf1b171489cdc88676bb8378,
+  bakedScriptType: Coherence.Generated.CoherenceSync_28183fceaf1b171489cdc88676bb8378,
     Assembly-CSharp
   approveAuthorityTransferRequests: 1
   simulationType: 0
@@ -688,6 +690,7 @@ MonoBehaviour:
       m_Calls: []
   scenePrefabInstanceUUID: 
   coherenceUUID: 
+  assetVersion: 
   usingReflection: 0
   coherenceTag: 
   componentActions:
@@ -706,9 +709,10 @@ MonoBehaviour:
         descriptor:
           rid: 7160131078553337857
         routing: 0
+        syncMode: 0
         isPredicted: 0
-        defaultInterpolationPath: 
-        guid: 34cd6880-441a-4b5c-92dd-251adf895389
+        predictionMode: 0
+        guid: 34cd6880441a4b5c92dd251adf895389
         archetypeData:
           type: 7
           minRange: 0
@@ -736,6 +740,7 @@ MonoBehaviour:
         ownerType:
           assemblyQualifiedName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
             Culture=neutral, PublicKeyToken=null
+        defaultSyncMode: 0
         CustomData:
           rid: -2
         bindingType:
@@ -749,9 +754,10 @@ MonoBehaviour:
         descriptor:
           rid: 7160131078553337861
         routing: 0
+        syncMode: 0
         isPredicted: 0
-        defaultInterpolationPath: 
-        guid: 4d03acae-aea7-4289-ae32-c8689b3c2f6e
+        predictionMode: 0
+        guid: 4d03acaeaea74289ae32c8689b3c2f6e
         archetypeData:
           type: 8
           minRange: 0
@@ -779,6 +785,7 @@ MonoBehaviour:
         ownerType:
           assemblyQualifiedName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
             Culture=neutral, PublicKeyToken=null
+        defaultSyncMode: 0
         CustomData:
           rid: -2
         bindingType:
@@ -794,8 +801,8 @@ MonoBehaviour:
       type: {class: KinematicRigidbodyComponentAction, ns: Coherence.Toolkit.ComponentActions, asm: Coherence.Toolkit}
       data:
         component: {fileID: 5244602595825333456}
-        setOnRemote: 1
-        resetOnAuthority: 0
+        enableOnRemote: 1
+        disableOnAuthority: 0
 --- !u!65 &7528562972016506057 stripped
 BoxCollider:
   m_CorrespondingSourceObject: {fileID: 2285634948000700874, guid: fae4bc45c698223438a41b7a2c3172ff, type: 3}

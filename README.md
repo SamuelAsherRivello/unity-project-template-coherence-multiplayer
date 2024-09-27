@@ -7,7 +7,11 @@ This repo includes...
 * Multiplayer from [Coherence.io](https://docs.coherence.io/get-started/install-coherence)
 * Custom Demo Scenes
 
-<img width="200" src="./Unity/Assets/Documentation/ReadMe/Art/Sprites/ProjectIcon.png" alt="Best Practices">
+<BR>
+
+<img width="600" src="./Unity/Assets/Documentation/Images/Screenshot2.png" alt="Best Practices">
+
+<BR>
 
 **Getting Started**
 1. Download this repo (*.zip or *.git)
@@ -16,6 +20,7 @@ This repo includes...
 1. Open this repo in the Unity Editor
 1. Enjoy
 
+<BR>
 
 Created By
 =============

@@ -1,0 +1,24 @@
+:root {
+    --color-blue-300: #0b65b8;
+    --color-blue-400: #0058a9;
+    --color-neutral-100: #dfdfdf;
+    --color-neutral-400: #383838;
+    --color-neutral-500: #282828;
+
+    --color-white: rgba(255, 255, 255, 1);
+    --color-error-text: rgba(249, 100, 100, 1);
+
+    --coherence-logo-image: url("../icons/coherence-logo.png");
+    --coherence-logo-width: 89px;
+    --coherence-logo-height: 19px;
+
+    --coherence-scroll-width: 20px;
+
+    font-size: 12px;
+}
+
+.coherence-logo {
+    height: var(--coherence-logo-height);
+    width: var(--coherence-logo-width);
+    background-image: var(--coherence-logo-image);
+}

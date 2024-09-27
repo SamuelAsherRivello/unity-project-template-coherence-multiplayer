@@ -1,0 +1,85 @@
+:root {
+    --input-background-color: rgb(252, 252, 252);
+    --input-border-color: var(--color-neutral-100);
+    --button-primary-background-color: var(--color-blue-300);
+    --button-primary-hovered-background-color: var(--color-blue-400);
+    --button-secondary-background-color: var(--color-neutral-400);
+    --button-secondary-hovered-background-color: var(--color-neutral-500);
+}
+
+.unity-button {
+    background-color: var(--button-primary-background-color);
+    color: var(--color-white);
+    border-width: 0;
+    border-radius: 3px;
+    margin: 0;
+    padding: 2px 8px;
+    width: 108px;
+}
+
+.unity-button:hover {
+    background-color: var(--button-primary-hovered-background-color);
+}
+
+.unity-button.secondary {
+    background-color: var(--button-secondary-background-color);
+}
+
+.unity-button.secondary:hover {
+    background-color: var(--button-secondary-hovered-background-color);
+}
+
+.unity-base-field__label--with-dragger {
+    cursor: arrow;
+}
+
+.unity-base-field__label {
+    min-width: 85px;
+}
+
+.unity-base-slider__tracker {
+    background-color: rgb(103, 103, 103);
+}
+
+.unity-base-slider:focus .unity-base-slider__dragger {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.unity-scroller__low-button {
+    background-color: rgb(56, 56, 56);
+    border-width: 0;
+    width: var(--coherence-scroll-width);
+    -unity-background-image-tint-color: rgba(255, 255, 255, 255);
+    height: 18px;
+}
+
+.unity-scroller__high-button {
+    background-color: rgb(56, 56, 56);
+    border-width: 0;
+    width: var(--coherence-scroll-width);
+    -unity-background-image-tint-color: rgba(255, 255, 255, 255);
+    height: 18px;
+}
+
+.unity-base-slider__dragger {
+    border-radius: 5px;
+    background-color: rgb(95, 95, 95);
+    align-self: center;
+    width: 14px;
+    left: auto;
+}
+
+.unity-base-slider__tracker {
+    background-color: rgb(56, 56, 56);
+    border-width: 0;
+}
+
+.unity-base-slider--vertical {
+    min-width: var(--coherence-scroll-width);
+    width: var(--coherence-scroll-width);
+    margin: 17px 0px;
+}
+
+.unity-scroller--vertical {
+    width: var(--coherence-scroll-width);
+}

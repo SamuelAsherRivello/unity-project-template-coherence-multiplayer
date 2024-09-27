@@ -1,0 +1,59 @@
+.matchmaking-lobby__buttons {
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    height: 25px;
+}
+
+.matchmaking-lobby__findmatch-content {
+    margin-top: 15px;
+}
+
+.matchmaking-options__account {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.matchmaking-options__logout-button {
+    height: 25px;
+}
+
+.matchmaking-options__player-name{
+    max-width: 250px;
+}
+
+.regions-input {
+    display: flex;
+    flex-direction: row;
+}
+
+.regions-input__toggle {
+    margin: 0;
+    margin-bottom: 12px;
+}
+
+.regions-input__toggle-label {
+    margin-left: 5px;
+}
+
+.regions-input > .unity-label {
+    -unity-text-align: upper-left;
+}
+
+.regions-input__regions > Label {
+    padding: 0;
+    -unity-text-align: upper-left;
+    color: #909090;
+}
+
+.regions-input__regions > .unity-toggle {
+    flex-direction: row-reverse;
+    margin-bottom: 0;
+}
+
+.regions-input__regions .unity-toggle__checkmark {
+    border-radius: 4px;
+    height: 14px;
+    width: 14px;
+}

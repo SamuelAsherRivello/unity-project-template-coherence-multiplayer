@@ -1,8 +1,4 @@
-component Cube_0523ec6f06fe0994c8dae94b92ef846e_UnityEngine__char_46_Transform_738163648128100788
-  position Vector3 [compression "None"]
-  rotation Quaternion [bits "32"]
-
-component Player__char_32_Variant_28183fceaf1b171489cdc88676bb8378_UnityEngine__char_46_Transform_5365570108380709824
-  position Vector3 [compression "None"]
-  rotation Quaternion [bits "32"]
+command _911e6564da2362b43abf8a4fc001d8f5_c4d1bb29347d4d0d9bcf3284d827ea79 [id "7", routing "All"]
+  clientId UInt 
+  worldPosition Vector3 [compression "None"]
 

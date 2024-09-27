@@ -1,0 +1,99 @@
+.chat-ui {
+    position: absolute;
+    left: 0;
+    right: 70%;
+    top: 70%;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0);
+    margin-left: 25px;
+    margin-bottom: 20px;
+    flex-direction: column-reverse;
+    transition-property: background-color;
+    transition-duration: 0.25s;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.chat-ui__focused {
+    position: absolute;
+    left: 0;
+    right: 70%;
+    top: 70%;
+    bottom: 0;
+    background-color: rgba(236, 241, 244, 0.7);
+    margin-left: 20px;
+    margin-bottom: 20px;
+    flex-direction: column-reverse;
+    border-width: 1px;
+    border-color: rgba(56, 56, 56, 0.7);
+    transition-property: background-color;
+    transition-duration: 1.35s;
+    transition-property: border-color;
+    transition-duration: 1.35s;
+}
+
+.unity-scroll-view__content-container {
+    flex-direction: column-reverse;
+    flex-grow: 1;
+}
+
+.chat-ui__scroll {
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+.chat-ui__text-field {
+    margin: 0;
+}
+
+.chat-ui__text-field::hover {
+    background-color: rgba(106, 106, 106, 0.75);
+}
+
+.chat-ui__text-field-box {
+    background-color: rgba(0, 0, 0, 0);
+    border-width: 0px;
+    transition-property: background-color;
+    transition-duration: 0.35s;
+    transition-property: border-color;
+    transition-duration: 0.35s;
+}
+
+.chat-ui__text {
+    color: rgb(0, 0, 0);
+    white-space: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.chat-ui__text-field-box:focus {
+    background-color: rgb(247, 250, 251);
+    border-color: rgba(56, 56, 56, 0);
+    border-radius: 0px;
+    border-width: 1px 0px 0px 0px;
+    transition-property: background-color;
+    transition-duration: 1.35s;
+    transition-property: border-color;
+    transition-duration: 1.35s;
+}
+
+.chat-ui__text-field-box-focus {
+    background-color: rgb(247, 250, 251);
+    border-color: rgba(56, 56, 56, 0);
+    border-radius: 0px;
+    border-width: 1px 0px 0px 0px;
+    transition-property: background-color;
+    transition-duration: 1.35s;
+    transition-property: border-color;
+    transition-duration: 1.35s;
+}
+
+.chat-ui__text-field-box:focus > .chat-ui {
+    background-color: rgba(236, 241, 244, 0.5);
+}
+
+.chat-ui__message {
+    color: rgb(255, 255, 255);
+}

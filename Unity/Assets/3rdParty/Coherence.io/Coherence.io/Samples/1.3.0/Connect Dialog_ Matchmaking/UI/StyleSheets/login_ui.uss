@@ -1,0 +1,10 @@
+.login-ui__login-row {
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-top: 14px;
+}
+
+.login-ui__info-label {
+    -unity-text-align: middle-right;
+    font-size: 10px;
+}

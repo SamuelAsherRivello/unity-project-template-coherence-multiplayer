@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="StyleSheets/unity_overrides.uss?fileID=7433441132597879392&amp;guid=0b9481e3b84826f4bb49a7f022ddb40d&amp;type=3#unity_overrides" />
+    <Style src="StyleSheets/common.uss?fileID=7433441132597879392&amp;guid=91664e4b4cde4d442a5e9e50466cf7be&amp;type=3#common" />
+    <Style src="StyleSheets/login_ui.uss?fileID=7433441132597879392&amp;guid=b353818bfe967d043ba315e43a0df336&amp;type=3#login_ui" />
+    <Style src="StyleSheets/message_box.uss?fileID=7433441132597879392&amp;guid=2cc184d6199ab4943a22ee16c8397eb7&amp;type=3#message_box" />
+    <Style src="StyleSheets/connecting_ui.uss?fileID=7433441132597879392&amp;guid=154e4e64f8ef2544fb16b043d0769b54&amp;type=3#connecting_ui" />
+    <Style src="StyleSheets/matchmaking_ui.uss?fileID=7433441132597879392&amp;guid=4d9815600bbe9564fbde37188347b63e&amp;type=3#matchmaking_ui" />
+    <Style src="StyleSheets/lobby_ui.uss?fileID=7433441132597879392&amp;guid=e4c049669078d174abc50a39a0d6a364&amp;type=3#lobby_ui" />
+    <Coherence.MatchmakingDialogSample.UI.ParentUI />
+</ui:UXML>
