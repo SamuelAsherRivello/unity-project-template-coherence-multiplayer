@@ -1,5 +1,5 @@
 
-# Unity Project Template
+# Unity Project Template - Coherence Multiplayer
 
 This repo includes...
 * Project Structure Best Practices from [SamuelAsherRivello/unity-project-template](https://github.com/SamuelAsherRivello/unity-project-template)
