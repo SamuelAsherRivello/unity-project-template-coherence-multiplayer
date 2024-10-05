@@ -1,11 +1,15 @@
 
-# Unity Project Template
+# Unity Project Template - Coherence Multiplayer
 
 This repo includes...
-* Project Structure Best Practices from [SamuelAsherRivello/unity-project-template](https://github.com/SamuelAsherRivello/unity-project-template)
-* C# Coding Standards for Unity from [SamuelAsherRivello/unity-project-template](https://github.com/SamuelAsherRivello/unity-project-template)
+* Project Structure Best Practices from [GitHub.com/SamuelAsherRivello/unity-project-template](https://github.com/SamuelAsherRivello/unity-project-template)
+* C# Coding Standards for Unity from [GitHub.com/SamuelAsherRivello/unity-project-template](https://github.com/SamuelAsherRivello/unity-project-template)
 * Multiplayer from [Coherence.io](https://docs.coherence.io/get-started/install-coherence)
 * Custom Demo Scenes
+
+Read more ...
+* Tips, Articles, Sample Projects [SamuelAsherRivello.com/multiplayer-portfolio/](https://www.samuelasherrivello.com/multiplayer-portfolio/)
+* Design Principles & More [SamuelAsherRivello.com/best-practices/](https://www.samuelasherrivello.com/best-practices/)
 
 <BR>
 
